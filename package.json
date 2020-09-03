@@ -1,0 +1,23 @@
+{
+  "name": "plick",
+  "version": "1.0.0",
+  "description": "OS Hosted Audio Control interaction with websites via headphone play/pause button",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xen0bit/plick.git"
+  },
+  "author": "Matthew Remacle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xen0bit/plick/issues"
+  },
+  "homepage": "https://github.com/xen0bit/plick#readme"
+}
