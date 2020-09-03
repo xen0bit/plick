@@ -37,7 +37,7 @@ var plick = (function () {
         }, false);
       },
       registerMainLoop: function (callbackFunc) {
-        var audioHandle = boopClickHeadphone.getAudioHandle();
+        var audioHandle = plick.getAudioHandle();
         plick.startMonitor(audioHandle, callbackFunc);
       }
     }
