@@ -13,7 +13,8 @@ var plick = (function () {
         var sourceElement = document.createElement('SOURCE');
         sourceElement.setAttribute('type', 'audio/mpeg');
         sourceElement.src = silenceMp3;
-        //sourceElement.src = 'https://' + document.domain + '/app/webview/silence.mp3'
+        //Sometimes browser don't like to plat data uri's, so you can fall back to an actual file
+        //sourceElement.src = 'https://' + document.domain + '/example/silence.mp3'
         //Attach source to Audio
         audioElement.appendChild(sourceElement);
         //document.body.appendChild(audioElement);
